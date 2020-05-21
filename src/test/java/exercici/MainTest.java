@@ -27,4 +27,9 @@ class MainTest {
     void Test4() {
         assertEquals(5,Main.dividir(a,b));
     }
+
+    @Test
+    void Test5() {
+        assertNotEquals(10,Main.sumar(a,b));
+    }
 }
